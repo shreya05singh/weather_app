@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        
+        <div id="inner_div">
+            <img src="weather.png" width="100px" >
+            <h1>Weather App</h1>
+            <form>
+            <div id="location">
+                 
+                <input type="text" id="city" placeholder="City">
+               <button>submit</button>
+               
+            </div> 
+            </form>
+    <div id="box">
+        
+        <div class="innerbox_odd" id="cloudy">
+            <p>Temperature</p>
+            <p id="temp"></p>
+            <img src="cloud.png" alt="sun" height="50px">
+            
+        </div>
+        <div class="innerbox_even" id="sunny">
+            <p>Pressure</p>
+            <p id="pressure"></p>
+            <img src="sun.png" alt="sun" height="50px">
+            
+        </div>
+        <div class="innerbox_odd" id="windy">
+            <p>Wind Speed</p>
+            <p id="wind"></p>
+            <img src="windy.png" alt="sun" height="50px">
+            
+        </div>
+        <div class="innerbox_even" id="rainy">
+            <p>Humidity</p>
+            <p id="humid"></p>
+            <img src="rain.png" alt="sun" height="50px">
+            
+        </div>
+    </div>
+            
+        </div>
+
+    </div>
+   <script src="weatherapp.js"></script>
+</body>
+</html>
